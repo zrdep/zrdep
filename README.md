@@ -1,4 +1,4 @@
-# 💜 Pedro Randolfo
+# Pedro Randolfo
 
 ### 👨‍💻 Desenvolvedor em evolução • Criador do Termo Bot • Amante de tecnologia
 
