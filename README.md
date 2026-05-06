@@ -1,7 +1,5 @@
 # 👋 Pedro Randolfo
 
-💻 Desenvolvedor em evolução
-
 ---
 
 ### 🚀 Sobre
