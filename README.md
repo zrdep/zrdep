@@ -2,7 +2,7 @@
 
 # Hello! I'm Pedro Randolfo 👋
 
-### Systems Information Student • Backend Developer
+### Sistema de Informação • Backend Developer
 
 <!-- <a href="https://linkedin.com/in/zrdep">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
@@ -21,10 +21,10 @@
 ```java
 public class PedroRandolfo {
 
-    String location = "Brazil 🇧🇷";
-    String education = "Systems Information";
-    String focus = "Backend Development";
-    String currentlyLearning = "Java, Node.js and Databases";
+    String location = "Brasil 🇧🇷";
+    String education = "Sistema de Informação";
+    String focus = "Desenvolvimento Backend";
+    String currentlyLearning = "Java";
 
     String[] interests = {
         "Web Development",
@@ -34,8 +34,8 @@ public class PedroRandolfo {
     };
 
     void introduction() {
-        System.out.println("Hey! I'm Pedro 👋");
-        System.out.println("Backend Developer");
+        System.out.println("Hello! I'm Pedro 👋");
+        System.out.println("Desenvolvimento Backend");
     }
 }
 ```
