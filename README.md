@@ -4,9 +4,9 @@
 
 ### Systems Information Student • Backend Developer
 
-<a href="https://linkedin.com/in/zrdep">
+<!-- <a href="https://linkedin.com/in/zrdep">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+</a> -->
 
 <a href="https://github.com/zrdep">
   <img src="https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white"/>
