@@ -9,7 +9,6 @@
 ~ $ cat sobre.txt
   ▸ Java, JavaScript e bancos de dados
   ▸ estudando Spring Boot e APIs REST
-  ▸ Rio Branco, AC — Brasil
 
 ~ $ ls stack/
   java   spring   javascript   node   python   angular   mysql   git
