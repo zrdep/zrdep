@@ -15,6 +15,7 @@
 
 ~ $ ls projetos/
   alien/                  RPG de exploração espacial e economia no Discord
+  chegou/                 transforma seu PC num destino de arquivos: escaneia o QR, envia do celular e chegou!
   produto-clud-mysql/     gerenciamento de dados de alunos em Java + MySQL (projeto de estudo)
 
 ~ $ cat contato.txt
