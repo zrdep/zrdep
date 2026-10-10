@@ -1,25 +1,9 @@
-<a href="https://github.com/zrdep">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=A3A3A3&vCenter=true&width=500&lines=%24+whoami;%3E+%5BPedro+Randolfo%5D+%E2%80%94+dev+back-end" alt="typing" />
-</a>
+<div align="center">
 
-```bash
-~ $ whoami
-  Pedro Randolfo — desenvolvedor back-end em formação
+<img src="terminal.svg" alt="~ $ whoami → Pedro Randolfo, desenvolvedor back-end em formação" width="820">
 
-~ $ cat sobre.txt
-  ▸ Java, JavaScript e bancos de dados
-  ▸ estudando Spring Boot e APIs REST
+<br><br>
 
-~ $ ls stack/
-  java   spring   javascript   node   python   angular   mysql   git
+[chegou](https://github.com/zrdep/chegou) · [alien](https://github.com/zrdep/alien) · [produto-clud-mysql](https://github.com/zrdep/produto-clud-mysql) · [email](mailto:pedrorandolfo.contato@gmail.com)
 
-~ $ ls projetos/
-  alien/                  RPG de exploração espacial e economia no Discord
-  chegou/                 transforma seu PC num destino de arquivos
-  produto-clud-mysql/     gerenciamento de dados de alunos em Java + MySQL (projeto de estudo)
-
-~ $ cat contato.txt
-  ▸ email     pedrorandolfo.contato@gmail.com
-
-~ $ _
-```
+</div>
