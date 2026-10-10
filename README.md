@@ -11,8 +11,3 @@
 
 <br>
 
-<img src="assets/terminal.svg" alt="~ $ neofetch" width="100%">
-
-<p align="center">
-  <sub><a href="mailto:pedrorandolfo.contato@gmail.com">pedrorandolfo.contato@gmail.com</a></sub>
-</p>
