@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>zrdep — Pedro Randolfo</title>
+  <meta name="description" content="Portfolio de Pedro Randolfo (zrdep) — desenvolvedor back-end em formação. Java, JavaScript, Node, Spring Boot.">
+  <meta name="theme-color" content="#0d1117">
+  <meta property="og:title" content="zrdep — Pedro Randolfo">
+  <meta property="og:description" content="Dev back-end em formação. Java, JavaScript, Node, Spring Boot.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zrdep.github.io/zrdep">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanline"></div>
+
+  <main class="terminal" id="terminal">
+
+    <!-- Title bar -->
+    <div class="terminal-bar">
+      <div class="terminal-buttons">
+        <span class="btn-close"></span>
+        <span class="btn-minimize"></span>
+        <span class="btn-maximize"></span>
+      </div>
+      <span class="terminal-title">pedro@zrdep: ~</span>
+      <span></span>
+    </div>
+
+    <div class="terminal-body">
+
+      <!-- Neofetch block -->
+      <section class="block" id="neofetch-block">
+        <div class="prompt" id="prompt-neofetch">
+          <span class="prompt-symbol">$</span>
+          <span class="prompt-text" data-text="neofetch"></span>
+        </div>
+
+        <div class="neofetch hidden" id="neofetch">
+          <pre class="ascii-art" aria-hidden="true">
+ ███████╗██████╗ ██████╗ ███████╗██████╗ 
+ ╚══███╔╝██╔══██╗██╔══██╗██╔════╝██╔══██╗
+   ███╔╝ ██████╔╝██║  ██║█████╗  ██████╔╝
+  ███╔╝  ██╔══██╗██║  ██║██╔══╝  ██╔═══╝ 
+ ███████╗██║  ██║██████╔╝███████╗██║     
+ ╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝     </pre>
+          <div class="neofetch-info">
+            <h1 class="neofetch-user"><span class="cyan">pedro</span>@<span class="cyan">zrdep</span></h1>
+            <div class="neofetch-separator">────────────────────</div>
+            <div class="neofetch-line"><span class="label">Nome:</span> Pedro Randolfo</div>
+            <div class="neofetch-line"><span class="label">Função:</span> Dev back-end <span class="dim">(em formação)</span></div>
+            <div class="neofetch-line"><span class="label">Linguagens:</span> Java, JavaScript, SQL</div>
+            <div class="neofetch-line"><span class="label">Frameworks:</span> Spring, Node, Fastify, Angular</div>
+            <div class="neofetch-line"><span class="label">Banco:</span> MySQL</div>
+            <div class="neofetch-line"><span class="label">Estudando:</span> Spring Boot, APIs REST</div>
+            <div class="neofetch-line"><span class="label">Projetos:</span> <span id="project-count">4</span></div>
+            <div class="color-blocks">
+              <span style="background:#3b3b3b"></span>
+              <span style="background:#6e6e6e"></span>
+              <span style="background:#a0a0a0"></span>
+              <span style="background:#d4d4d4"></span>
+              <span style="background:#5ccfe6"></span>
+              <span style="background:#bae67e"></span>
+              <span style="background:#ffd580"></span>
+              <span style="background:#f28779"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects block -->
+      <section class="block" id="projects-block">
+        <div class="prompt hidden" id="prompt-npm">
+          <span class="prompt-symbol">$</span>
+          <span class="prompt-text" data-text="npm ls --depth=0"></span>
+        </div>
+
+        <div class="projects hidden" id="projects">
+          <div class="projects-header">
+            <span class="white">zrdep</span><span class="dim">@portfolio</span>
+          </div>
+
+          <div class="project-item">
+            <span class="tree-branch">├──</span>
+            <a href="https://github.com/zrdep/chegou" target="_blank" rel="noopener" class="project-name" id="project-chegou">chegou<span class="dim">@1.0.0</span></a>
+            <span class="project-tags">— node, fastify</span>
+            <div class="project-desc">Phone ↔ PC file transfer from the terminal. Run npx chegou, scan the QR, done.</div>
+            <div class="project-stats">
+              <span class="stat"><span class="star">★</span> 19</span>
+              <span class="stat">🍴 2</span>
+              <span class="stat-lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <span class="tree-branch">├──</span>
+            <a href="https://github.com/zrdep/alien" target="_blank" rel="noopener" class="project-name" id="project-alien">alien</a>
+            <span class="project-tags">— javascript, discord</span>
+            <div class="project-desc">∩lien — algo caiu do espaço! RPG de exploração espacial e economia no Discord.</div>
+            <div class="project-stats">
+              <span class="stat"><span class="star">★</span> 1</span>
+              <span class="stat-lang"><span class="lang-dot" style="background:#f1e05a"></span>JavaScript</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <span class="tree-branch">├──</span>
+            <a href="https://github.com/zrdep/produto-clud-mysql" target="_blank" rel="noopener" class="project-name" id="project-crud">produto-clud-mysql</a>
+            <span class="project-tags">— java, mysql</span>
+            <div class="project-desc">Gerenciamento e persistência de dados de alunos com Java e MySQL.</div>
+            <div class="project-stats">
+              <span class="stat-lang"><span class="lang-dot" style="background:#b07219"></span>Java</span>
+            </div>
+          </div>
+
+          <div class="project-item">
+            <span class="tree-branch">└──</span>
+            <a href="https://github.com/zrdep/calculadora-ci" target="_blank" rel="noopener" class="project-name" id="project-calc">calculadora-ci</a>
+            <span class="project-tags">— java</span>
+            <div class="project-desc">Calculadora com integração contínua — projeto de estudo.</div>
+            <div class="project-stats">
+              <span class="stat-lang"><span class="lang-dot" style="background:#b07219"></span>Java</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact block -->
+      <section class="block" id="contact-block">
+        <div class="prompt hidden" id="prompt-contact">
+          <span class="prompt-symbol">$</span>
+          <span class="prompt-text" data-text="echo $CONTATO"></span>
+        </div>
+
+        <div class="contact hidden" id="contact">
+          <a href="https://github.com/zrdep" target="_blank" rel="noopener" class="contact-link" id="link-github">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            github.com/zrdep
+          </a>
+          <a href="mailto:pedrorandolfo.contato@gmail.com" class="contact-link" id="link-email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            pedrorandolfo.contato@gmail.com
+          </a>
+        </div>
+      </section>
+
+      <!-- Cursor block -->
+      <section class="block" id="cursor-block">
+        <div class="prompt hidden" id="prompt-cursor">
+          <span class="prompt-symbol">$</span>
+          <span class="cursor-blink">_</span>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
