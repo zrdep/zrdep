@@ -11,7 +11,7 @@
   ▸ estudando Spring Boot e APIs REST
 
 ~ $ ls stack/
-  java   spring   javascript   node   python   angular   mysql   git
+  java   spring   javascript   typescript   node   python   angular   mysql   git
 
 ~ $ ls projetos/
   chegou/                 transforma seu PC num destino de arquivos
