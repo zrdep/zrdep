@@ -2,6 +2,11 @@
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&pause=1000&color=A3A3A3&vCenter=true&width=500&lines=%24+whoami;%3E+%5BPedro+Randolfo%5D+%E2%80%94+dev+back-end" alt="typing" />
 </a>
 
+<p>
+  <img src="pedro.gif" alt="Pedro" height="50" />
+  <img src="luiza.gif" alt="Luiza" height="50" />
+</p>
+
 ```bash
 ~ $ whoami
   Pedro Randolfo — desenvolvedor back-end em formação
