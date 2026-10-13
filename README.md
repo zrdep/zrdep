@@ -3,8 +3,8 @@
 </a>
 
 <p>
-  <img src="pedro.gif" alt="Pedro" height="50" />
-  <img src="luiza.gif" alt="Luiza" height="50" />
+  <img src="pedro.gif" alt="Pedro" height="99" />
+  <img src="luiza.gif" alt="Luiza" height="99" />
 </p>
 
 ```bash
